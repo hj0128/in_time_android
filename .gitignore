@@ -41,6 +41,7 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 local.properties
+env.xml
 !.idea/copyright
 !/.idea/codeStyles
 !/.idea/codeStyles/Project.xml

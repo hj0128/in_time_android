@@ -2,10 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- 위치정보 접근 -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 위치정보 접근 정확/대충 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <!-- 인터넷 접근 -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -30,12 +29,9 @@
             </intent-filter>
         </activity>
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="${google_api_key}" />
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="${google_api_key}" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+
     </application>
 
 </manifest>
